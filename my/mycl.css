@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@800&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+
+
+:root{
+	--dark: #000000;
+	--light: #e8e8e8;
+	--darks: rgba(0,0,0,0.3);
+	--lights: rgba(255,255,255,.3);
+
+
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+.project{
+	position:relative;
+}
+.proj-img{
+	
+	width:100%;
+	height:250px;
+	position:absolute;
+}
+.out-none{
+	outline: none;
+}
+
+.textm-dark{
+	color: var(--dark) !important;
+}
+
+.textm-light{
+	color: var(--light) !important
+}
+#panel{
+	display: none;
+}
+.w-90{
+	width: 90%;
+}
+.w-95{
+	width: 95%;
+}
+
+.w-85{
+	width: 85%;
+}
+
+.mrs{
+	margin-right:0px;
+	background:#000;
+}
+
+.mt-2{
+	margin-top: 180px !important;
+}
+.progress,.progress-bar{
+	height: 6px !important;
+}
+
+.bg-pb{
+	background: linear-gradient(87deg,#0ef,#1d3fff);
+}
+.fa-github{
+	color: #000;
+}
+
+.instagram{
+	border-radius: 5px;
+	background: linear-gradient(85deg,#f21,#ff0);
+}
+.text-blue{
+	color:#15c;
+}
+
+.contect>div>a,.contect>div{
+	padding-right:0px;
+	margin-right: 0px;
+}
+
+
+
+.skill{
+	position: relative;
+	margin-top:30px;
+	margin-bottom: 30px;
+	z-index: 1;
+
+}
+.skill>label{
+		color: var(--dark) !important;
+	}
+
+.fa-list{
+	font-size: 25px;
+}
+.bg-skill{
+	width: 100%;
+	height: 350px;
+	position: absolute;
+	z-index:0;
+	margin-top: 80px;
+
+	
+}
+@media only screen and (min-width: 640px){
+	.logoimg{
+	    width: 150px
+	    height: 135px
+	}
+	.contect>div>.nav-link>span{
+
+		color: var(--dark) !important;
+	}
+	
+}
+
+@media only screen and (max-width: 360px){
+	.teach-p{
+		font-size: 10px;
+	}
+
+	
+	.logoimg{
+	width: 170px;
+	height: 140px;}
+}
+
+
+.mybg-ex{
+	background:rgba(255,255,255,.3);
+}
+
+
+.fa-moon{
+	background:none;
+	color: var(--dark);
+}
+
+.nav-link>span{
+	color: var(--dark) !important;
+}
+
+
+
+
+
+
+
+
